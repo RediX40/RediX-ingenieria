@@ -94,3 +94,10 @@ body {
     background-position: center; /* Esto centra la imagen */
     background-attachment: fixed; /* Fija la imagen mientras haces scroll */
 }
+body {
+    background-image: url('images/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
