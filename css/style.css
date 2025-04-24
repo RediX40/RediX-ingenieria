@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('../fonts/Anton-Regular.woff2') format('woff2'),
+         url('../fonts/Anton-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+  }
+  
