@@ -147,5 +147,14 @@ body {
   width: 150px;         /* El logo tendrá un ancho de 150px (más grande que antes) */
   height: auto;         /* Mantiene la relación de aspecto original */
 }
+/* Estilo para el logo */
+#logo {
+  position: absolute;  /* Lo posicionamos fuera del flujo normal */
+  top: 20px;           /* Un poco de separación desde la parte superior */
+  left: 50%;           /* Lo colocamos a la mitad de la pantalla */
+  transform: translateX(-50%);  /* Ajusta para que esté centrado */
+  width: 150px;        /* El logo tendrá un ancho de 150px (ajústalo a tu gusto) */
+  height: auto;        /* Mantiene la relación de aspecto original */
+}
 
 
