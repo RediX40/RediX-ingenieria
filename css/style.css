@@ -130,3 +130,11 @@ body {
   height: auto;         /* Mantiene la relación de aspecto del logo */
 }
 
+/* Estilo para el logo */
+#logo {
+  position: absolute;   /* Lo posicionamos fuera del flujo normal */
+  top: 20px;            /* Distancia desde la parte superior */
+  right: 20px;          /* Distancia desde el borde derecho */
+  width: 150px;         /* Tamaño del logo, ajusta este valor si lo necesitas más grande o pequeño */
+  height: auto;         /* Mantiene la relación de aspecto */
+}
