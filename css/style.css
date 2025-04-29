@@ -139,5 +139,13 @@ body {
   width: 100px;         /* El logo tendrá un ancho de 100px (ajústalo a tu gusto) */
   height: auto;         /* Mantiene la relación de aspecto original */
 }
+/* Estilo para el logo */
+#logo {
+  position: absolute;   /* Lo posicionamos fuera del flujo normal */
+  top: 50px;            /* 50px de distancia desde la parte superior */
+  right: 50px;          /* 50px de distancia desde el borde derecho */
+  width: 150px;         /* El logo tendrá un ancho de 150px (más grande que antes) */
+  height: auto;         /* Mantiene la relación de aspecto original */
+}
 
 
