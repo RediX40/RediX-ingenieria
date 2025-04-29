@@ -87,6 +87,13 @@ body {
   transform: translateX(-50%);  /* Ajusta para que esté centrado */
   width: 150px;        /* El logo tendrá un ancho de 150px (ajústalo a tu gusto) */
   height: auto;        /* Mantiene la relación de aspecto original */
+}body {
+  background-image: url('../images/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 
