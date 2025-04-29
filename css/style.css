@@ -121,4 +121,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/* Estilo para el logo */
+#logo {
+  position: absolute;   /* Posiciona el logo fuera del flujo normal */
+  top: 10px;            /* Ajusta el espacio desde la parte superior */
+  left: 10px;           /* Ajusta el espacio desde el borde izquierdo */
+  width: 150px;         /* Ajusta el tamaño del logo, puedes cambiar este valor */
+  height: auto;         /* Mantiene la relación de aspecto del logo */
+}
 
