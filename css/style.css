@@ -122,22 +122,6 @@ body {
   background-attachment: fixed;
 }
 /* Estilo para el logo */
-#logo {
-  position: absolute;   /* Posiciona el logo fuera del flujo normal */
-  top: 10px;            /* Ajusta el espacio desde la parte superior */
-  left: 10px;           /* Ajusta el espacio desde el borde izquierdo */
-  width: 150px;         /* Ajusta el tamaño del logo, puedes cambiar este valor */
-  height: auto;         /* Mantiene la relación de aspecto del logo */
-}
-
-/* Estilo para el logo */
-#logo {
-  position: absolute;   /* Lo posicionamos fuera del flujo normal */
-  top: 20px;            /* Distancia desde la parte superior */
-  right: 20px;          /* Distancia desde el borde derecho */
-  width: 150px;         /* Tamaño del logo, ajusta este valor si lo necesitas más grande o pequeño */
-  height: auto;         /* Mantiene la relación de aspecto */
-}
 /* Estilo para el logo */
 #logo {
   position: absolute;   /* Lo posicionamos fuera del flujo normal */
@@ -146,3 +130,6 @@ body {
   width: 120px;         /* El logo tendrá un ancho de 120px (puedes cambiarlo si lo deseas más grande o pequeño) */
   height: auto;         /* Mantiene la relación de aspecto original */
 }
+
+
+
