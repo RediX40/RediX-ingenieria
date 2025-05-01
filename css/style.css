@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../images/fondo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Asegura que el contenedor esté centrado */
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Ajusta el tamaño del logo */
+.logo-container img {
+  max-width: 300px; /* Puedes ajustar el tamaño a tu gusto */
+  width: 100%; /* Esto garantiza que la imagen no sea más ancha que su contenedor */
+  height: auto;
+}
+/* Estilo para la barra azul debajo del logo */
+.footer-bar {
+  background-color: #041038; /* El color azul que mencionaste */
+  padding: 10px 0; /* Espacio dentro de la barra */
+  margin-top: 20px; /* Espacio entre el logo y la barra */
+  text-align: right; /* Alinea el texto a la derecha */
+}
+
+.footer-bar ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+}
+
+.footer-bar ul li {
+  margin: 0 15px; /* Espacio entre los elementos */
+}
+
+.footer-bar ul li a {
+  color: white; /* Color blanco para el texto */
+  text-decoration: none; /* Elimina el subrayado */
+  font-size: 14px; /* Tamaño de fuente */
+  font-weight: bold; /* Para darle un toque más destacado */
+}
+
+.footer-bar ul li a:hover {
+  text-decoration: underline; /* Subraya el texto al pasar el mouse */
+}
+
+
+
+
+
+

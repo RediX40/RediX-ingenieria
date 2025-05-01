@@ -1,0 +1,65 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra para el cuerpo */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar el texto */
+    padding-top: 50px; /* Espacio superior */
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #666; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007BFF; /* Color de los enlaces */
+    text-decoration: none; /* Eliminar subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado cuando el mouse pasa sobre el enlace */
+
+}
+/* Fondo de página */
+body {
+    background-image: url('images/fondo.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+  background-image: url('images/fondo.jpg');
+  body {
+    background-image: url('images/fondo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se hace scroll */
+}
+body {
+    background-image: url('images/fondo.png'); /* Usa .png en lugar de .jpg */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    background-image: url('images/fondo.png'); /* Usando el nombre en minúsculas */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    background-image: url('images/fondo.png'); /* Ruta correcta */
+    background-size: cover; /* Asegura que la imagen cubra toda la página */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+}
