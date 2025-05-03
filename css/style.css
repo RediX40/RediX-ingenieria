@@ -1,57 +1,183 @@
+/* Fuente profesional */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   background-image: url("../images/fondo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-/* Asegura que el contenedor esté centrado */
-.logo-container {
-  text-align: center;
-  margin-top: 20px;
+  color: #01123e;
 }
 
-/* Ajusta el tamaño del logo */
+/* Centrado del logo */
+.logo-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .logo-container img {
-  max-width: 300px; /* Puedes ajustar el tamaño a tu gusto */
-  width: 100%; /* Esto garantiza que la imagen no sea más ancha que su contenedor */
+  max-width: 280px;
+  width: 100%;
   height: auto;
 }
-/* Estilo para la barra azul debajo del logo */
+
+/* Barra de navegación */
 .footer-bar {
-  background-color: #041038; /* El color azul que mencionaste */
-  padding: 10px 0; /* Espacio dentro de la barra */
-  margin-top: 20px; /* Espacio entre el logo y la barra */
-  text-align: right; /* Alinea el texto a la derecha */
+  background-color: #01123e;
+  padding: 15px 30px;
+  text-align: right;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .footer-bar ul {
-  list-style-type: none; /* Elimina los puntos de la lista */
+  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end; /* Alinea los elementos a la derecha */
-}
-
-.footer-bar ul li {
-  margin: 0 15px; /* Espacio entre los elementos */
+  justify-content: flex-end;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .footer-bar ul li a {
-  color: white; /* Color blanco para el texto */
-  text-decoration: none; /* Elimina el subrayado */
-  font-size: 14px; /* Tamaño de fuente */
-  font-weight: bold; /* Para darle un toque más destacado */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s ease;
 }
 
 .footer-bar ul li a:hover {
-  text-decoration: underline; /* Subraya el texto al pasar el mouse */
+  color: #ffcc00;
 }
 
+/* Estilo para todas las secciones */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease;
+}
 
+section:hover {
+  transform: translateY(-3px);
+}
 
+section h2 {
+  color: #01123e;
+  font-size: 28px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #01123e;
+  display: inline-block;
+  padding-bottom: 5px;
+}
 
+section h3 {
+  color: #041038;
+  margin-top: 25px;
+  font-size: 22px;
+  text-decoration: underline;
+}
 
+section p, section li {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
+section ul {
+  padding-left: 20px;
+}
+
+section img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la sección de Contáctanos */
+#contactanos {
+  background-color: #f1f1f1;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contactanos h2 {
+  color: #01123e;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-image {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contactanos a {
+  color: #01123e;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#contactanos a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-bar ul {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section h3 {
+    font-size: 20px;
+  }
+
+  #contactanos {
+    padding: 30px;
+  }
+
+  #contactanos h2 {
+    font-size: 26px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
