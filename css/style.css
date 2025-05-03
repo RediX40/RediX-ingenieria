@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center; /* <--- esto los centra */
   gap: 25px;
   flex-wrap: wrap;
 }
@@ -81,6 +81,10 @@ section h2 {
   border-bottom: 3px solid #01123e;
   display: inline-block;
   padding-bottom: 5px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section h3 {
